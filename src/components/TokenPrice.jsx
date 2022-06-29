@@ -19,7 +19,7 @@ function TokenPrice(props) {
 
   const toggleDisplayStyle = () => setIsUSDMode(!isUSDMode);
 
-  const noLogoToken = "https://etherscan.io/images/main/empty-token.png";
+  const noLogoToken = "https://svgshare.com/i/h_y.svg";
 
   return (
     <div style={styles.token}>

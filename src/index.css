@@ -1,3 +1,4 @@
+
 *,
 *::before,
 *::after {
@@ -26,12 +27,15 @@ dd {
   margin: 0;
 }
 
+body .ant-layout {
+    background-image: url('/src/skinny.jpg');
+  }
+
 body {
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background-color: white;
 }
 
 ul[class],

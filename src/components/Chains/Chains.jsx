@@ -23,9 +23,9 @@ const styles = {
 
 const menuItems = [
   {
-    key: "0x1",
-    value: "Ethereum",
-    icon: <ETHLogo />,
+    key: "0x38",
+    value: "BNB",
+    icon: <BSCLogo />,
   },
   // {
   //   key: "0x539",
@@ -68,9 +68,9 @@ const menuItems = [
   //   icon: <PolygonLogo />,
   // },
   {
-    key: "0x13881",
-    value: "Mumbai",
-    icon: <PolygonLogo />,
+    key: "0x61",
+    value: "Smart Chain Testnet",
+    icon: <BSCLogo />,
   },
   // {
   //   key: "0xa86a",

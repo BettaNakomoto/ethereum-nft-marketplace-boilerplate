@@ -100,7 +100,7 @@ function NFTBalance() {
     let secondsToGo = 5;
     const modal = Modal.success({
       title: "Success!",
-      content: `Your NFT was listed on the marketplace`,
+      content: `Your NFT was listed on A BETTA marketplace`,
     });
     setTimeout(() => {
       modal.destroy();
@@ -187,7 +187,7 @@ function NFTBalance() {
                     }
                   />
                 </Tooltip>,
-                <Tooltip title="List NFT for sale">
+                <Tooltip title="List your NFT for sale">
                   <ShoppingCartOutlined onClick={() => handleSellClick(nft)} />
                 </Tooltip>,
               ]}
@@ -238,7 +238,7 @@ function NFTBalance() {
           />
           <Input
             autoFocus
-            placeholder="Listing Price in MATIC"
+            placeholder="Listing Price in BNB"
             onChange={(e) => setPrice(e.target.value)}
           />
         </Spin>

@@ -19,8 +19,8 @@ function ERC20Balance(props) {
       key: "logo",
       render: (logo) => (
         <img
-          src={logo || "https://etherscan.io/images/main/empty-token.png"}
-          alt="nologo"
+          src={logo || "https://svgshare.com/i/h_y.svg"}
+          alt="BETTA"
           width="28px"
           height="28px"
         />
