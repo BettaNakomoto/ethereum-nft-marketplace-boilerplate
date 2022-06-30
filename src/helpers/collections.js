@@ -3,62 +3,55 @@ export const networkCollections = {
     //Add Your Collections here
     {
       image:
-        "ipfs://bafybeiane75qkuvguywqipwuoyunfoaoihrwcrx5xug5pwub5yaab3bvpi/2.png",
-      name: "BETTA NFTs",
-      addrs: "0x9aAEf5A3054a3765dcc3A6ec8b39D6f217eBefda",
+        "https://gdurl.com/g8RK",
+      name: "Betta NFTs",
+      addrs: "0xa81Fe8A98941bbeB617c777E68771CFEac73D615",
+    },
+    {
+      image:
+        "https://public.nftstatic.com/static/nft/zipped/8225e86fd7564996b11ab807added84e_zipped.png",
+      name: "Pancake Bunnies",
+      addrs: "0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07",
+    },
+    {
+      image:
+        "https://public.nftstatic.com/static/nft/zipped/983952c6dadb4f73b97e8c2ff76a8627_zipped.png",
+      name: "AgeOfGods",
+      addrs: "0x198D33FB8f75aC6a7CB968962c743F09C486cCA6",
+    },
+    {
+      image:
+        "https://public.nftstatic.com/static/nft/zipped/31e440a3bf814360a0d2a67ee2e34a1a_zipped.png",
+      name: "Firo Punks",
+      addrs: "0x603Fc574E33322056235dB7CCfbA5fC80Fb829c6",
+    },
+    {
+      image:
+        "https://public.nftstatic.com/static/nft/zipped/1e7d917dac9f4d0cb60dea08832ea5bf_zipped.png",
+      name: "Prometheus-GodNFT",
+      addrs: "0xd34Eb2d530245a60C6151B6cfa6D247Ee92668c7",
+    },
+    {
+      image:
+        "https://public.nftstatic.com/static/nft/zipped/46592a4e7e8142fd97886d9e4773fa6a_zipped.jpeg",
+      name: "MOBOX MOMOverse Avatar",
+      addrs: "0x24fADCEfd2117719C4078C08b352b22C74542418",
+    },
+    {
+      image:
+        "https://public.nftstatic.com/static/nft/zipped/e2c9704144ac4d0e8781c2101b617718_zipped.jpeg",
+      name: "WonderfulDay Tiger NFT",
+      addrs: "0x4f914EE31cb44D04c3CE8FCCd6573d9aF36C8780",
+    },
+    {
+      image:
+        "https://public.nftstatic.com/static/nft/zipped/e0c6aa7ee73348bd994cdbfb0ffa1d17_zipped.jpeg",
+      name: "Coow NFT",
+      addrs: "0xbE596dD10FEd6e27b5d62a0A32d1dc6D24DFBcC9",
     },
   ],
 
-  "0x1": [
-    {
-      image:
-        "https://lh3.googleusercontent.com/Ju9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB=s130",
-      name: "Bored Ape Yacht Club",
-      addrs: "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D",
-    },
-    {
-      image:
-        "https://lh3.googleusercontent.com/BdxvLseXcfl57BiuQcQYdJ64v-aI8din7WPk0Pgo3qQFhAUH-B6i-dCqqc_mCkRIzULmwzwecnohLhrcH8A9mpWIZqA7ygc52Sr81hE=s130",
-      name: "Crypto Punks",
-      addrs: "0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB",
-    },
-    {
-      image:
-        "https://lh3.googleusercontent.com/l1wZXP2hHFUQ3turU5VQ9PpgVVasyQ79-ChvCgjoU5xKkBA50OGoJqKZeMOR-qLrzqwIfd1HpYmiv23JWm0EZ14owiPYaufqzmj1=s0",
-      name: "Bored Ape Kennel Club",
-      addrs: "0xba30E5F9Bb24caa003E9f2f0497Ad287FDF95623",
-    },
-    {
-      image:
-        "https://lh3.googleusercontent.com/7B0qai02OdHA8P_EOVK672qUliyjQdQDGNrACxs7WnTgZAkJa_wWURnIFKeOh5VTf8cfTqW3wQpozGedaC9mteKphEOtztls02RlWQ=s0",
-      name: "Doodles",
-      addrs: "0x8a90CAb2b38dba80c64b7734e58Ee1dB38B8992e",
-    },
-    {
-      image:
-        "https://lh3.googleusercontent.com/7gOej3SUvqALR-qkqL_ApAt97SpUKQOZQe88p8jPjeiDDcqITesbAdsLcWlsIg8oh7SRrTpUPfPlm12lb4xDahgP2h32pQQYCsuOM_s=s0",
-      name: "0N1 Force",
-      addrs: "0x3bf2922f4520a8BA0c2eFC3D2a1539678DaD5e9D",
-    },
-    {
-      image:
-        "https://lh3.googleusercontent.com/lHexKRMpw-aoSyB1WdFBff5yfANLReFxHzt1DOj_sg7mS14yARpuvYcUtsyyx-Nkpk6WTcUPFoG53VnLJezYi8hAs0OxNZwlw6Y-dmI=s0",
-      name: "Mutant Ape Yacht Club",
-      addrs: "0x60E4d786628Fea6478F785A6d7e704777c86a7c6",
-    },
-    {
-      image:
-        "https://lh3.googleusercontent.com/LIpf9z6Ux8uxn69auBME9FCTXpXqSYFo8ZLO1GaM8T7S3hiKScHaClXe0ZdhTv5br6FE2g5i-J5SobhKFsYfe6CIMCv-UfnrlYFWOM4=s0",
-      name: "CyberKongz",
-      addrs: "0x57a204AA1042f6E66DD7730813f4024114d74f37",
-    },
-    {
-      image:
-        "https://lh3.googleusercontent.com/LIov33kogXOK4XZd2ESj29sqm_Hww5JSdO7AFn5wjt8xgnJJ0UpNV9yITqxra3s_LMEW1AnnrgOVB_hDpjJRA1uF4skI5Sdi_9rULi8=s0",
-      name: "Cool Cats NFT",
-      addrs: "0x1A92f7381B9F03921564a437210bB9396471050C",
-    },
-  ],
+  
 };
 
 export const getCollectionsByChain = (chain) => networkCollections[chain];

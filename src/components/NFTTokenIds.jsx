@@ -246,7 +246,7 @@ function NFTTokenIds({ inputValue, setInputValue }) {
             ))}
 
           {inputValue !== "explore" &&
-            NFTTokenIds.slice(0, 20).map((nft, index) => (
+            NFTTokenIds.slice(0, 40).map((nft, index) => (
               <Card
                 hoverable
                 actions={[

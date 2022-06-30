@@ -67,11 +67,11 @@ const menuItems = [
   //   value: "Polygon",
   //   icon: <PolygonLogo />,
   // },
-  {
-    key: "0x61",
-    value: "Smart Chain Testnet",
-    icon: <BSCLogo />,
-  },
+  //{
+  //  key: "0x61",
+  //  value: "Smart Chain Testnet",
+  //  icon: <BSCLogo />,
+  //},
   // {
   //   key: "0xa86a",
   //   value: "Avalanche",

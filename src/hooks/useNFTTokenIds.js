@@ -19,12 +19,12 @@ export const useNFTTokenIds = (addr) => {
   } = useMoralisWeb3ApiCall(token.getAllTokenIds, {
     chain: chainId,
     address: addr,
-    limit: 10,
+    limit: 20,
   });
 
   useEffect(async () => {
     if (data?.result) {
-      const NFTs = data.result;
+      const NFTs = data.result.sort((a, b) => a.token_id - b.token_id);
       setTotalNFTs(data.total);
       setFetchSuccess(true);
       for (let NFT of NFTs) {

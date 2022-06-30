@@ -26,7 +26,7 @@ function NFTBalance() {
   const { Moralis } = useMoralis();
   const [visible, setVisibility] = useState(false);
   const [nftToSend, setNftToSend] = useState(null);
-  const [price, setPrice] = useState(1);
+  const [price, setPrice] = useState();
   const [loading, setLoading] = useState(false);
   const contractProcessor = useWeb3ExecuteFunction();
   const contractABIJson = JSON.parse(contractABI);
@@ -35,7 +35,8 @@ function NFTBalance() {
 
   async function list(nft, listPrice) {
     setLoading(true);
-    const p = listPrice * ("1e" + 18);
+    //const p = listPrice * ("1e" + 18);
+    const p = Moralis.Units.ETH(listPrice);
     const ops = {
       contractAddress: marketAddress,
       functionName: listItemFunction,
@@ -100,7 +101,7 @@ function NFTBalance() {
     let secondsToGo = 5;
     const modal = Modal.success({
       title: "Success!",
-      content: `Your NFT was listed on A BETTA marketplace`,
+      content: `Your NFT was listed on BETTASea`,
     });
     setTimeout(() => {
       modal.destroy();

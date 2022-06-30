@@ -18,8 +18,7 @@ import NativeBalance from "components/NativeBalance";
 import "./style.css";
 import Text from "antd/lib/typography/Text";
 import NFTMarketTransactions from "components/NFTMarketTransactions";
-import ListYourNFTs from "components/ListYourNFTs"
-import { BorderlessTableOutlined } from "@ant-design/icons";
+
 
 const { Header, Footer } = Layout;
 
@@ -93,9 +92,6 @@ const App = ({ isServerInfo }) => {
             <Menu.Item key="transactions">
               <NavLink to="/Transactions">📑 Transaction History</NavLink>
             </Menu.Item>
-            <Menu.Item key="list your own NFT">
-              <NavLink to="/listNFTs">📑 List Your Own NFT Collection</NavLink>
-            </Menu.Item>
           </Menu>
           <div style={styles.headerRight}>
             <Chains />
@@ -114,16 +110,13 @@ const App = ({ isServerInfo }) => {
             <Route path="/Transactions">
               <NFTMarketTransactions />
             </Route>
-            <Route path="/listNFTs">
-              <ListYourNFTs />
-            </Route>
           </Switch>
           <Redirect to="/NFTMarketPlace" />
         </div>
       </Router>
       <Footer style={{ textAlign: "center" , background: 'black'}}>
         <Text style={{ display: "block" , color: "white" }}>
-          Disclaimer: Transacting digital assets (including, but not limited to NFTs) could result in significant losses and may not be suitable for some entities. Digital asset markets and exchanges are not regulated with the same controls or customer protections available with other forms of investing and are subject to an evolving regulatory environment. ABettaMeta, $BETTA token, BETTA NFTs & BETTA NFT Marketplace are affiliated with no government, business, corporation, trust, or bank. The creators are private natural living human beings, free from taxation or authority of any kind. $BETTA token utilizes peer-to-peer transactions, without the need for an intermediary, free from counterparty risk. The only entities with any influence on this network beyond our control are the BSC node operators, as our native tokens are BEP-20 & BEP-721. Do your own research before making any decisions.
+          Disclaimer: Transacting digital assets (including, but not limited to NFTs) could result in significant losses and may not be suitable for some entities. Digital asset markets and exchanges are not regulated with the same controls or customer protections available with other forms of investing and are subject to an evolving regulatory environment. ABettaMeta, $BETTA token, BETTA NFTs and BETTASea are affiliated with no government, business, corporation, trust, or bank. The creators are private natural living human beings, free from taxation or authority of any kind. $BETTA token utilizes peer-to-peer transactions, without the need for an intermediary, free from counterparty risk. The only entities with any influence on this network beyond our control are the BSC node operators, as our native tokens are BEP-20 and BEP-721. Do your own research before making any decisions.
         </Text>
       </Footer>
     </Layout>
